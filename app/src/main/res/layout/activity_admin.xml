@@ -1,0 +1,68 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="64dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:context="com.example.pef.prathamopenschool.AdminActivity">
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/solid_background"
+            android:drawableLeft="@drawable/icon"
+            android:gravity="center"
+            android:paddingLeft="16dp"
+            android:text="Administrator Login"
+            android:textColor="#ffffff"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtAdminUsername"
+            android:layout_width="478dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="64dp"
+            android:hint="Enter Username"
+            android:inputType="text"
+            android:textColor="#000000"
+            android:textColorHint="@color/text_hint"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/txtAdminPassword"
+            android:layout_width="478dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="32dp"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:textColor="#000000"
+            android:textColorHint="@color/text_hint"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/adminLogIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="64dp"
+            android:background="@color/button"
+            android:layout_weight="0.19"
+            android:text=" LogIn "
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+</ScrollView>

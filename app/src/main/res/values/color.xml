@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="your_color">#EEE0B1</color>
+    <color name="base">#FFF</color>
+    <color name="solid_background">#00749E</color>
+    <color name="old_background">#005465</color>
+    <color name="banner">#9E9E9E</color>
+    <color name="text_hint">#909090</color>
+    <color name="old_button">#D16200</color>
+    <color name="button">#2E96BB</color>
+
+    <color name="colorPrimary">#F50057</color>
+    <color name="colorPrimaryDark">#F50057</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>
+
+</resources>
